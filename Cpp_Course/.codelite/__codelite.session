@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Session Name="C:\Users\Jip\Desktop\TCTI-V1OOPC-15-BASE\Cpp_Course\__codelite.workspace">
+  <int Value="11" Name="m_selectedTab"/>
+  <wxString Value="C:\Users\Jip\Desktop\TCTI-V1OOPC-15-BASE\Cpp_Course\__codelite.workspace" Name="m_workspaceName"/>
+  <TabInfoArray Name="TabInfoArray">
+    <TabInfo>
+      <wxString Value="C:\Users\Jip\Desktop\TCTI-V1OOPC-15-BASE\Cpp_Course\8-1_Thick_Walls\main.cpp" Name="FileName"/>
+      <int Value="5" Name="FirstVisibleLine"/>
+      <int Value="3" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\Jip\Desktop\TCTI-V1OOPC-15-BASE\Cpp_Course\8-1_Thick_Walls\line.cpp" Name="FileName"/>
+      <int Value="55" Name="FirstVisibleLine"/>
+      <int Value="4" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\Jip\Desktop\TCTI-V1OOPC-15-BASE\Cpp_Course\8-1_Thick_Walls\ball.hpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\Jip\Desktop\TCTI-V1OOPC-15-BASE\Cpp_Course\8-1_Thick_Walls\ball.cpp" Name="FileName"/>
+      <int Value="1" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\Jip\Desktop\TCTI-V1OOPC-15-BASE\Cpp_Course\8-1_Thick_Walls\wall.hpp" Name="FileName"/>
+      <int Value="2" Name="FirstVisibleLine"/>
+      <int Value="15" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\Jip\Desktop\TCTI-V1OOPC-15-BASE\Cpp_Course\8-1_Thick_Walls\wall.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="7" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\Jip\Desktop\TCTI-V1OOPC-15-BASE\Cpp_Course\8-1_Thick_Walls\rectangle.hpp" Name="FileName"/>
+      <int Value="6" Name="FirstVisibleLine"/>
+      <int Value="23" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\Jip\Desktop\TCTI-V1OOPC-15-BASE\Cpp_Course\8-1_Thick_Walls\rectangle.cpp" Name="FileName"/>
+      <int Value="3" Name="FirstVisibleLine"/>
+      <int Value="3" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\Jip\Desktop\TCTI-V1OOPC-15-BASE\Cpp_Course\8-1_Thick_Walls\drawable.hpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\Jip\Desktop\TCTI-V1OOPC-15-BASE\Cpp_Course\8-1_Thick_Walls\filled_rectangle.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="18" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\Jip\Desktop\TCTI-V1OOPC-15-BASE\Cpp_Course\8-1_Thick_Walls\filled_rectangle.hpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="17" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\Jip\Desktop\TCTI-V1OOPC-15-BASE\Cpp_Course\7-3_ADT_vector\vector.hpp" Name="FileName"/>
+      <int Value="18" Name="FirstVisibleLine"/>
+      <int Value="31" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\Jip\Desktop\TCTI-V1OOPC-15-BASE\Cpp_Course\7-3_ADT_vector\vector.cpp" Name="FileName"/>
+      <int Value="95" Name="FirstVisibleLine"/>
+      <int Value="110" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\Jip\Desktop\TCTI-V1OOPC-15-BASE\Cpp_Course\7-3_ADT_vector\main.cpp" Name="FileName"/>
+      <int Value="31" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+  </TabInfoArray>
+  <SerializedObject Name="m_breakpoints">
+    <long Value="0" Name="Count"/>
+  </SerializedObject>
+</Session>

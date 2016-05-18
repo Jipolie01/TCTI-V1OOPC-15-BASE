@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Cpp_Course" Database="">
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="6-1_Filled_Rectangle" ConfigName="Debug"/>
+      <Project Name="6-2_More_Object" ConfigName="Debug"/>
+      <Project Name="7-1_Doxygen" ConfigName="Debug"/>
+      <Project Name="7-2_Catch" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="6-1_Filled_Rectangle" ConfigName="Release"/>
+      <Project Name="6-2_More_Object" ConfigName="Release"/>
+      <Project Name="7-1_Doxygen" ConfigName="Release"/>
+      <Project Name="7-2_Catch" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

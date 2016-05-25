@@ -24,8 +24,8 @@ void print_patterns(hwlib::pin_in_out & led0 ,hwlib::pin_in_out & led1 ,hwlib::p
                     led3.set( 0 );
                 }
             }
-            hwlib::wait_ms( 200 );
         }
+        hwlib::wait_ms( 300 );
 }
 
 void clear_all(hwlib::pin_in_out & led0 ,hwlib::pin_in_out & led1 ,hwlib::pin_in_out & led2 ,hwlib::pin_in_out & led3){
@@ -62,6 +62,8 @@ int main( void )
         print_patterns(led0,led1,led2,led3,pattern2);
         clear_all(led0,led1,led2,led3);
         print_patterns(led0,led1,led2,led3,pattern3);
+        clear_all(led0,led1,led2,led3);
+        print_patterns(led0,led1,led2,led3,pattern2);
         clear_all(led0,led1,led2,led3);
     }
 	return 0;

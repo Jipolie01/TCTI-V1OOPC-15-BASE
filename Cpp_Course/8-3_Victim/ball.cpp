@@ -15,7 +15,6 @@ ball::ball( window & w, const vector & midpoint, int radius, const vector & spee
 void ball::interact( drawable & other, drawable *objects[]){
     if( this != & other){
       if( overlaps( other )){
-          cout<<"Other: " << other << "\n";
             speed.x *= other.bounce.x;
             speed.y *= other.bounce.y;
       }

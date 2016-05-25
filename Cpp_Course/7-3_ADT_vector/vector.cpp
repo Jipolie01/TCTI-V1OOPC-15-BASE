@@ -38,6 +38,7 @@ vector vector::operator*(const int rhs) const {
 /// get with 4 * (3,4), this is why nothing happens when 
 /// this operator+ gets called. 
 vector vector::operator+() const{
+    return *this;
 }
 
 /// negative number
@@ -112,7 +113,7 @@ std::ostream & operator<<(std::ostream & lhs, const vector & rhs){
     return lhs
         << "["
         << rhs.x
-        << "/"
+        << ","
         << rhs.y
         << "]";
 }

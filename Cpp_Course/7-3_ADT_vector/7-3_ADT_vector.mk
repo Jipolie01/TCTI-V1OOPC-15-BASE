@@ -5,15 +5,15 @@
 ## Debug
 ProjectName            :=7-3_ADT_vector
 ConfigurationName      :=Debug
-WorkspacePath          := "C:\Users\Jip\Desktop\TCTI-V1OOPC-15-BASE\Cpp_Course"
-ProjectPath            := "C:\Users\Jip\Desktop\TCTI-V1OOPC-15-BASE\Cpp_Course\7-3_ADT_vector"
+WorkspacePath          := "C:\Users\Jip\Documents\School\HBO-ICT Propedeuse\C++\C++_Project\TCTI-V1OOPC-15-BASE\Cpp_Course"
+ProjectPath            := "C:\Users\Jip\Documents\School\HBO-ICT Propedeuse\C++\C++_Project\TCTI-V1OOPC-15-BASE\Cpp_Course\7-3_ADT_vector"
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=Jip
-Date                   :=18/05/2016
+Date                   :=24/05/2016
 CodeLitePath           :="C:\CodeLite"
 LinkerName             :=C:/MinGW/bin/g++.exe
 SharedObjectLinkerName :=C:/MinGW/bin/g++.exe -shared -fPIC
@@ -94,7 +94,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp $(IntermediateDirectory)/main.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/Jip/Desktop/TCTI-V1OOPC-15-BASE/Cpp_Course/7-3_ADT_vector/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/Jip/Documents/School/HBO-ICT Propedeuse/C++/C++_Project/TCTI-V1OOPC-15-BASE/Cpp_Course/7-3_ADT_vector/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(DependSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM "main.cpp"
 
@@ -102,7 +102,7 @@ $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) "main.cpp"
 
 $(IntermediateDirectory)/vector.cpp$(ObjectSuffix): vector.cpp $(IntermediateDirectory)/vector.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/Jip/Desktop/TCTI-V1OOPC-15-BASE/Cpp_Course/7-3_ADT_vector/vector.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/vector.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/Jip/Documents/School/HBO-ICT Propedeuse/C++/C++_Project/TCTI-V1OOPC-15-BASE/Cpp_Course/7-3_ADT_vector/vector.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/vector.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/vector.cpp$(DependSuffix): vector.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/vector.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/vector.cpp$(DependSuffix) -MM "vector.cpp"
 

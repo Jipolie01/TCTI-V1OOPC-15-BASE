@@ -5,15 +5,15 @@
 ## Release
 ProjectName            :=6-1_Filled_Rectangle
 ConfigurationName      :=Release
-WorkspacePath          := "C:\Users\Jip\Desktop\TCTI-V1OOPC-15-BASE\Cpp_Course"
-ProjectPath            := "C:\Users\Jip\Desktop\TCTI-V1OOPC-15-BASE\Cpp_Course\6-1_Filled_Rectangle"
+WorkspacePath          := "C:\Users\Jip\Documents\School\HBO-ICT Propedeuse\C++\C++_Project\TCTI-V1OOPC-15-BASE\Cpp_Course"
+ProjectPath            := "C:\Users\Jip\Documents\School\HBO-ICT Propedeuse\C++\C++_Project\TCTI-V1OOPC-15-BASE\Cpp_Course\6-1_Filled_Rectangle"
 IntermediateDirectory  :=./Release
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=Jip
-Date                   :=12/05/2016
+Date                   :=24/05/2016
 CodeLitePath           :="C:\CodeLite"
 LinkerName             :=C:/MinGW/bin/g++.exe
 SharedObjectLinkerName :=C:/MinGW/bin/g++.exe -shared -fPIC
@@ -94,7 +94,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp $(IntermediateDirectory)/main.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/Jip/Desktop/TCTI-V1OOPC-15-BASE/Cpp_Course/6-1_Filled_Rectangle/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/Jip/Documents/School/HBO-ICT Propedeuse/C++/C++_Project/TCTI-V1OOPC-15-BASE/Cpp_Course/6-1_Filled_Rectangle/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(DependSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM "main.cpp"
 
@@ -102,7 +102,7 @@ $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) "main.cpp"
 
 $(IntermediateDirectory)/filled_rectangle.cpp$(ObjectSuffix): filled_rectangle.cpp $(IntermediateDirectory)/filled_rectangle.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/Jip/Desktop/TCTI-V1OOPC-15-BASE/Cpp_Course/6-1_Filled_Rectangle/filled_rectangle.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/filled_rectangle.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/Jip/Documents/School/HBO-ICT Propedeuse/C++/C++_Project/TCTI-V1OOPC-15-BASE/Cpp_Course/6-1_Filled_Rectangle/filled_rectangle.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/filled_rectangle.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/filled_rectangle.cpp$(DependSuffix): filled_rectangle.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/filled_rectangle.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/filled_rectangle.cpp$(DependSuffix) -MM "filled_rectangle.cpp"
 
@@ -110,7 +110,7 @@ $(IntermediateDirectory)/filled_rectangle.cpp$(PreprocessSuffix): filled_rectang
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/filled_rectangle.cpp$(PreprocessSuffix) "filled_rectangle.cpp"
 
 $(IntermediateDirectory)/window.cpp$(ObjectSuffix): window.cpp $(IntermediateDirectory)/window.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/Jip/Desktop/TCTI-V1OOPC-15-BASE/Cpp_Course/6-1_Filled_Rectangle/window.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/window.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/Jip/Documents/School/HBO-ICT Propedeuse/C++/C++_Project/TCTI-V1OOPC-15-BASE/Cpp_Course/6-1_Filled_Rectangle/window.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/window.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/window.cpp$(DependSuffix): window.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/window.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/window.cpp$(DependSuffix) -MM "window.cpp"
 

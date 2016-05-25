@@ -1,30 +1,40 @@
 #include "wall.hpp"
+#include <iostream>
 
-wall::wall(window & w, const vector & start, const vector & end, int update_interval, bool filled, int update_count = 0):
-    r(w, start, end),
-    f(w,start,end),
-    update_interval(update_interval),
-    filled(filled),
-    update_count(update_count)
-{}
+using namespace std;
 
-wall::~wall()
+wall::wall(window & w, const vector & start,const vector & end):
+    drawable(w,start,end),
+    figure(w, start,end),
+    update_interval(4),
+    update_count(0)
 {
 }
 
-void wall::draw(){
-    if(filled = 1){
-        r.draw();
-    }else if(filled = 0){
+wall::~wall()
+{
 
+}
+
+void wall::draw(){
+    if(filled == 0){
+        figure.draw();
+    }else if(filled == 1){
+        figure.draw_filled();
     }
 }
 
-
 void wall::update(){
-    if(update_count > update_interval){
+    if(update_count == update_interval){
         update_count = 0;
-    }else{
+        if(filled == 1){
+            filled = 0;
+            draw();
+        }else if(filled == 0){
+            filled = 1;
+            draw();
+        }
+    }else if(update_count != update_interval){
         update_count++;
     }
 }

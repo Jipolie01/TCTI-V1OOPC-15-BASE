@@ -19,7 +19,8 @@ int main( void ){
    sw.direction_set_input();
 
    while(1){
-      led.set( ! sw.get() );
+        //std::cout<<"Button pressed"
+        led.set( ! sw.get() );
    }
 }
 

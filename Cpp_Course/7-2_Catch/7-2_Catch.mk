@@ -5,15 +5,15 @@
 ## Debug
 ProjectName            :=7-2_Catch
 ConfigurationName      :=Debug
-WorkspacePath          := "C:\Users\Jip\Desktop\TCTI-V1OOPC-15-BASE\Cpp_Course"
-ProjectPath            := "C:\Users\Jip\Desktop\TCTI-V1OOPC-15-BASE\Cpp_Course\7-2_Catch"
+WorkspacePath          := "C:\Users\Jip\Documents\School\HBO-ICT Propedeuse\C++\C++_Project\TCTI-V1OOPC-15-BASE\Cpp_Course"
+ProjectPath            := "C:\Users\Jip\Documents\School\HBO-ICT Propedeuse\C++\C++_Project\TCTI-V1OOPC-15-BASE\Cpp_Course\7-2_Catch"
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=Jip
-Date                   :=17/05/2016
+Date                   :=24/05/2016
 CodeLitePath           :="C:\CodeLite"
 LinkerName             :=C:/MinGW/bin/g++.exe
 SharedObjectLinkerName :=C:/MinGW/bin/g++.exe -shared -fPIC
@@ -94,7 +94,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp $(IntermediateDirectory)/main.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/Jip/Desktop/TCTI-V1OOPC-15-BASE/Cpp_Course/7-2_Catch/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/Jip/Documents/School/HBO-ICT Propedeuse/C++/C++_Project/TCTI-V1OOPC-15-BASE/Cpp_Course/7-2_Catch/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(DependSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM "main.cpp"
 

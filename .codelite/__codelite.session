@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Session Name="C:\Users\Jip\Documents\School\HBO-ICT Propedeuse\C++\C++_Project\TCTI-V1OOPC-15-BASE\__codelite.workspace">
-  <int Value="0" Name="m_selectedTab"/>
+  <int Value="1" Name="m_selectedTab"/>
   <wxString Value="C:\Users\Jip\Documents\School\HBO-ICT Propedeuse\C++\C++_Project\TCTI-V1OOPC-15-BASE\__codelite.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="C:\Users\Jip\Documents\School\HBO-ICT Propedeuse\C++\C++_Project\TCTI-V1OOPC-15-BASE\22-2-patterns\main.cpp" Name="FileName"/>
-      <int Value="6" Name="FirstVisibleLine"/>
-      <int Value="16" Name="CurrentLine"/>
+      <wxString Value="C:\Users\Jip\Documents\School\HBO-ICT Propedeuse\C++\C++_Project\TCTI-V1OOPC-15-BASE\22-5-blinker\main.cpp" Name="FileName"/>
+      <int Value="46" Name="FirstVisibleLine"/>
+      <int Value="74" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\Jip\Documents\School\HBO-ICT Propedeuse\C++\C++_Project\TCTI-V1OOPC-15-BASE\22-4-Decorator\main.cpp" Name="FileName"/>
+      <int Value="3" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>

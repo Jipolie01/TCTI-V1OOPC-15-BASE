@@ -17,9 +17,9 @@ void button_pressed(hwlib::pin_in_out & on,hwlib::pin_in_out & off, hwlib::port_
                 leds.set((1 << counter) -1);
     }
 }
-
-    
 }
+
+
 
 int main( void )
 {
@@ -39,6 +39,8 @@ int main( void )
     off.direction_set_input();
       
     button_pressed(on,off, leds,50);
+    
+    
     
 	return 0;
 }
